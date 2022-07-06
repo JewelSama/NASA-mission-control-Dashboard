@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/JewelSama/NASA-mission-control-Dashboard/issues"
   },
-  "homepage": "https://github.com/JewelSama/NASA-mission-control-Dashboard#readme"
+  "homepage": "https://github.com/JewelSama/NASA-mission-control-Dashboard#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }

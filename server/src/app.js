@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const planetsRouter = require('./routes/planets/planets.router')
 const cors = require('cors')
+const morgan = require('morgan')
 
 const app = express();
 
@@ -9,6 +10,8 @@ const app = express();
 app.use(cors({
     origin: 'http://localhost:3000',
 }));
+
+app.use(morgan('combined'))
 
 
 
